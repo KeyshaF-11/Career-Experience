@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(336, 100%, 98%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #240d1d;
+  
+  
+}
+
+article{
+    background-color: #ffe1ed;
+    padding: 15px 25px;
+    border: 30px;
+    border-color: rgb(104, 83, 102);
+    border-style: dashed;
+    border-width: 3px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    padding: 15px 25px;
+    text-align: center;
+    padding-right: 90px;
+    background-color: #fff79f
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:visited{
+    color: blue;
+}
+
+nav a:active{
+    color: rgb(94, 28, 155);
+}
+
+
+footer{
+    text-align: center;
+    background: url(https://media.istockphoto.com/id/171374460/photo/dahlia.webp?b=1&s=612x612&w=0&k=20&c=UqKO_Bb1p-Gkp0oZzb5M1eROxotZ-gd9VmDD7jLxCdg=);
+    background-size: 200px 200px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#imgap{
+    float: right;
+    margin: 22px;
+   
+    border-radius: 45px;
+}
+
+#imgcont{
+    float: right;
+    margin: 22px;
+    padding-bottom: 22px;
+    border-radius: 45px;
+    height: auto;
+    width: 304px;
+}
+
+#imgcar{
+    float: left;
+    margin: 22px;
+    padding-bottom: 22px;
+    border-radius: 45px;
+    height: auto;
+    width: 304px;
+}
+#imgart{
+    float: right;
+    margin: 22px;
+    padding-bottom: 22px;
+    border-radius: 45px;
+    height: auto;
+    width: 250px;
+}
+form{
+    margin: 30px 59px;
+}
+
+
